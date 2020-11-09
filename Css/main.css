@@ -1,0 +1,2464 @@
+#headerButton, .mainButtonStyle, .linkButtonStyle, #skillsWindow, #closeBtn, #aboutMe {
+  border-radius: 5px; }
+
+body {
+  display: none; }
+
+*:focus {
+  outline: 0 !important; }
+
+* {
+  font-family: 'Raleway', sans-serif; }
+
+#indexHead {
+  background-color: #0E1212;
+  height: 100vh;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.headerText {
+  color: #D7D6D8; }
+
+#hText1 {
+  position: absolute;
+  top: 5vh;
+  left: 5vw;
+  font-size: 13vw; }
+
+#hText2 {
+  position: absolute;
+  left: 20vw;
+  top: 40vh;
+  font-size: 3vw; }
+
+#hText3 {
+  position: absolute;
+  transform: rotate(5deg);
+  top: 60vh;
+  left: 5vw;
+  font-size: 7vw; }
+
+#headerButton {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4vh;
+  height: 7vh;
+  width: 12vw;
+  font-size: 20px;
+  border: 4px solid white;
+  background-color: #0E1212;
+  color: #D7D6D8;
+  z-index: 3;
+  outline: none;
+  transition: background-color 1s; }
+  #headerButton:hover {
+    background-color: #7AC3B1;
+    animation-name: headerButton;
+    animation-duration: 2s; }
+
+@keyframes headerButton {
+  0% {
+    border-left-color: #FFBA39; }
+  50% {
+    border-bottom-color: #FFBA39;
+    border-top-color: #FFBA39; }
+  100% {
+    border-right-color: #FFBA39; } }
+@media only screen and (max-width: 600px) {
+  #headerButton {
+    width: 50vw; }
+
+  #hText1 {
+    font-size: 20vw; }
+
+  #hText2 {
+    font-size: 10vw;
+    top: 25vh; }
+
+  #hText3 {
+    font-size: 10vw;
+    top: 70vh; } }
+@media only screen and (min-width: 601px) {
+  #headerButton {
+    width: 35vw; }
+
+  #hText2 {
+    top: 30vh;
+    font-size: 6vw; } }
+@media only screen and (min-width: 1000px) {
+  #headerButton {
+    width: 17vw; }
+
+  #hText2 {
+    font-size: 3vw;
+    top: 40vh; } }
+#particle:nth-child(1) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.2;
+  width: 5vw;
+  height: 4vh;
+  left: 9vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 2.5s;
+  animation-duration: 5s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(2) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.3;
+  width: 4vw;
+  height: 3vh;
+  left: 32vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 1.5s;
+  animation-duration: 6s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(3) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.9;
+  width: 3vw;
+  height: 4vh;
+  left: 11vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+  animation-duration: 4s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(4) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.5;
+  width: 3vw;
+  height: 3vh;
+  left: 88vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 0.3333333333s;
+  animation-duration: 6s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(5) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.6;
+  width: 3vw;
+  height: 3vh;
+  left: 8vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 0.3333333333s;
+  animation-duration: 8s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(6) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.3;
+  width: 4vw;
+  height: 4vh;
+  left: 41vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+  animation-duration: 8s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(7) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.5;
+  width: 5vw;
+  height: 4vh;
+  left: 53vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 3.5s;
+  animation-duration: 3.75s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(8) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.3;
+  width: 5vw;
+  height: 3vh;
+  left: 43vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 1.3333333333s;
+  animation-duration: 3.25s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(9) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.2;
+  width: 5vw;
+  height: 5vh;
+  left: 2vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 0.75s;
+  animation-duration: 4.25s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(10) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.1;
+  width: 5vw;
+  height: 3vh;
+  left: 5vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 0.5s;
+  animation-duration: 3.75s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(11) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.7;
+  width: 4vw;
+  height: 3vh;
+  left: 15vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 0.1666666667s;
+  animation-duration: 9s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(12) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.5;
+  width: 3vw;
+  height: 4vh;
+  left: 25vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 1.3333333333s;
+  animation-duration: 7s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(13) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.8;
+  width: 5vw;
+  height: 5vh;
+  left: 48vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 0.7777777778s;
+  animation-duration: 4.3333333333s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(14) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.3;
+  width: 3vw;
+  height: 4vh;
+  left: 61vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 0.7777777778s;
+  animation-duration: 4.3333333333s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(15) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.8;
+  width: 4vw;
+  height: 4vh;
+  left: 62vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 3s;
+  animation-duration: 8s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(16) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.1;
+  width: 5vw;
+  height: 5vh;
+  left: 8vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 9s;
+  animation-duration: 5.5s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(17) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.7;
+  width: 5vw;
+  height: 5vh;
+  left: 80vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 2.3333333333s;
+  animation-duration: 5s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(18) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.6;
+  width: 3vw;
+  height: 4vh;
+  left: 71vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 3.3333333333s;
+  animation-duration: 6s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(19) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.1;
+  width: 3vw;
+  height: 3vh;
+  left: 46vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 1.75s;
+  animation-duration: 3.3333333333s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(20) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.1;
+  width: 3vw;
+  height: 5vh;
+  left: 67vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 0.2857142857s;
+  animation-duration: 4s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(21) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.1;
+  width: 5vw;
+  height: 5vh;
+  left: 82vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 1.3333333333s;
+  animation-duration: 4s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(22) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.5;
+  width: 5vw;
+  height: 5vh;
+  left: 51vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 4s;
+  animation-duration: 3.25s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(23) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.7;
+  width: 5vw;
+  height: 4vh;
+  left: 20vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 0.3333333333s;
+  animation-duration: 4s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(24) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.4;
+  width: 5vw;
+  height: 3vh;
+  left: 15vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 1.25s;
+  animation-duration: 4s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(25) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.1;
+  width: 5vw;
+  height: 3vh;
+  left: 70vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 0.1428571429s;
+  animation-duration: 8s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(26) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.6;
+  width: 4vw;
+  height: 4vh;
+  left: 82vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 0.3333333333s;
+  animation-duration: 4s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(27) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.5;
+  width: 4vw;
+  height: 4vh;
+  left: 89vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 3.3333333333s;
+  animation-duration: 3.75s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(28) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.7;
+  width: 4vw;
+  height: 5vh;
+  left: 68vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+  animation-duration: 5.5s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(29) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.9;
+  width: 5vw;
+  height: 5vh;
+  left: 5vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 0.625s;
+  animation-duration: 3.3333333333s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(30) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.5;
+  width: 3vw;
+  height: 5vh;
+  left: 70vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 2s;
+  animation-duration: 4.3333333333s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(31) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.5;
+  width: 3vw;
+  height: 5vh;
+  left: 25vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 0.4285714286s;
+  animation-duration: 4.6666666667s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(32) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.1;
+  width: 4vw;
+  height: 5vh;
+  left: 73vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 1.5s;
+  animation-duration: 3.3333333333s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(33) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.3;
+  width: 3vw;
+  height: 4vh;
+  left: 81vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 0.625s;
+  animation-duration: 9s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(34) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.7;
+  width: 5vw;
+  height: 3vh;
+  left: 54vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 0.875s;
+  animation-duration: 9s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(35) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.8;
+  width: 5vw;
+  height: 4vh;
+  left: 88vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 2.5s;
+  animation-duration: 9s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(36) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.7;
+  width: 3vw;
+  height: 5vh;
+  left: 11vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 1.3333333333s;
+  animation-duration: 4s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(37) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.8;
+  width: 3vw;
+  height: 4vh;
+  left: 56vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 1.6666666667s;
+  animation-duration: 4.5s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(38) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.8;
+  width: 3vw;
+  height: 4vh;
+  left: 30vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 0.3333333333s;
+  animation-duration: 3.25s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(39) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.5;
+  width: 4vw;
+  height: 4vh;
+  left: 6vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 3s;
+  animation-duration: 4s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(40) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.8;
+  width: 4vw;
+  height: 3vh;
+  left: 82vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 1.6666666667s;
+  animation-duration: 5s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(41) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.2;
+  width: 4vw;
+  height: 4vh;
+  left: 3vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 7s;
+  animation-duration: 9s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(42) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.8;
+  width: 3vw;
+  height: 4vh;
+  left: 10vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 0.5555555556s;
+  animation-duration: 3.5s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(43) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.4;
+  width: 4vw;
+  height: 5vh;
+  left: 9vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 2.6666666667s;
+  animation-duration: 3.5s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(44) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.1;
+  width: 3vw;
+  height: 3vh;
+  left: 5vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 1.25s;
+  animation-duration: 4s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(45) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.9;
+  width: 3vw;
+  height: 5vh;
+  left: 70vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 1.2s;
+  animation-duration: 3.5s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(46) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.6;
+  width: 3vw;
+  height: 3vh;
+  left: 67vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+  animation-duration: 4s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(47) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.4;
+  width: 4vw;
+  height: 5vh;
+  left: 35vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 1.125s;
+  animation-duration: 4.25s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(48) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.7;
+  width: 3vw;
+  height: 5vh;
+  left: 77vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 2.25s;
+  animation-duration: 3.3333333333s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(49) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.6;
+  width: 4vw;
+  height: 3vh;
+  left: 50vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 6s;
+  animation-duration: 9s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(50) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.2;
+  width: 3vw;
+  height: 3vh;
+  left: 26vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 0.5s;
+  animation-duration: 4s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(51) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.2;
+  width: 3vw;
+  height: 3vh;
+  left: 9vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 1.3333333333s;
+  animation-duration: 4.5s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(52) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.6;
+  width: 5vw;
+  height: 3vh;
+  left: 58vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 1.4285714286s;
+  animation-duration: 4.5s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(53) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.9;
+  width: 3vw;
+  height: 5vh;
+  left: 69vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 1.6666666667s;
+  animation-duration: 8s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(54) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.8;
+  width: 3vw;
+  height: 5vh;
+  left: 7vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 8s;
+  animation-duration: 4s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(55) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.5;
+  width: 4vw;
+  height: 4vh;
+  left: 38vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 1.4s;
+  animation-duration: 5s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(56) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.3;
+  width: 5vw;
+  height: 3vh;
+  left: 81vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 3s;
+  animation-duration: 7s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(57) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.2;
+  width: 5vw;
+  height: 4vh;
+  left: 59vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 0.75s;
+  animation-duration: 6s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(58) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.6;
+  width: 4vw;
+  height: 4vh;
+  left: 71vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 1.2857142857s;
+  animation-duration: 4.5s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(59) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.3;
+  width: 5vw;
+  height: 4vh;
+  left: 8vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 0.7142857143s;
+  animation-duration: 4s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(60) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.8;
+  width: 3vw;
+  height: 4vh;
+  left: 64vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 1.2857142857s;
+  animation-duration: 4s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(61) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.7;
+  width: 4vw;
+  height: 3vh;
+  left: 43vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 0.3333333333s;
+  animation-duration: 4s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(62) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.9;
+  width: 4vw;
+  height: 3vh;
+  left: 46vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+  animation-duration: 6s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(63) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.3;
+  width: 4vw;
+  height: 4vh;
+  left: 64vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 0.2s;
+  animation-duration: 4s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(64) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.3;
+  width: 5vw;
+  height: 3vh;
+  left: 2vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 8s;
+  animation-duration: 4.25s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(65) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.7;
+  width: 5vw;
+  height: 4vh;
+  left: 28vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 0.25s;
+  animation-duration: 3.3333333333s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(66) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.5;
+  width: 5vw;
+  height: 4vh;
+  left: 21vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 0.6666666667s;
+  animation-duration: 6s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(67) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.4;
+  width: 3vw;
+  height: 4vh;
+  left: 48vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 0.7777777778s;
+  animation-duration: 7s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(68) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.4;
+  width: 4vw;
+  height: 3vh;
+  left: 66vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 1.2s;
+  animation-duration: 4.25s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(69) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.4;
+  width: 3vw;
+  height: 4vh;
+  left: 53vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 1.3333333333s;
+  animation-duration: 4s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(70) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.3;
+  width: 5vw;
+  height: 4vh;
+  left: 87vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 0.3333333333s;
+  animation-duration: 4s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(71) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.6;
+  width: 3vw;
+  height: 5vh;
+  left: 27vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 5s;
+  animation-duration: 5s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(72) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.3;
+  width: 3vw;
+  height: 4vh;
+  left: 45vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+  animation-duration: 4.25s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(73) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.2;
+  width: 5vw;
+  height: 4vh;
+  left: 74vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 3.5s;
+  animation-duration: 5s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(74) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.8;
+  width: 4vw;
+  height: 5vh;
+  left: 38vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 0.1666666667s;
+  animation-duration: 8s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(75) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.2;
+  width: 5vw;
+  height: 3vh;
+  left: 17vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 1.1666666667s;
+  animation-duration: 3.3333333333s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(76) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.7;
+  width: 5vw;
+  height: 4vh;
+  left: 67vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 5s;
+  animation-duration: 5.5s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(77) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.2;
+  width: 4vw;
+  height: 3vh;
+  left: 23vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 0.75s;
+  animation-duration: 3.5s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(78) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.6;
+  width: 3vw;
+  height: 3vh;
+  left: 10vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 0.3333333333s;
+  animation-duration: 6s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(79) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.5;
+  width: 3vw;
+  height: 5vh;
+  left: 48vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 0.4s;
+  animation-duration: 4.3333333333s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(80) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.5;
+  width: 5vw;
+  height: 5vh;
+  left: 20vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 1.6s;
+  animation-duration: 3.5s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(81) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.2;
+  width: 3vw;
+  height: 3vh;
+  left: 65vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 5s;
+  animation-duration: 3.6666666667s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(82) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.1;
+  width: 5vw;
+  height: 4vh;
+  left: 8vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 0.5555555556s;
+  animation-duration: 4.25s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(83) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.7;
+  width: 3vw;
+  height: 4vh;
+  left: 90vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 0.2222222222s;
+  animation-duration: 4.3333333333s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(84) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.6;
+  width: 4vw;
+  height: 5vh;
+  left: 88vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 1.3333333333s;
+  animation-duration: 4s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(85) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.2;
+  width: 5vw;
+  height: 5vh;
+  left: 45vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+  animation-duration: 4s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(86) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.1;
+  width: 4vw;
+  height: 4vh;
+  left: 5vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 0.375s;
+  animation-duration: 3.5s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(87) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.4;
+  width: 4vw;
+  height: 3vh;
+  left: 29vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 10s;
+  animation-duration: 6s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(88) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.5;
+  width: 4vw;
+  height: 3vh;
+  left: 75vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 1.5s;
+  animation-duration: 4.6666666667s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(89) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.7;
+  width: 4vw;
+  height: 5vh;
+  left: 81vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 3s;
+  animation-duration: 4.5s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(90) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.1;
+  width: 4vw;
+  height: 4vh;
+  left: 81vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 1.6666666667s;
+  animation-duration: 6s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(91) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.1;
+  width: 5vw;
+  height: 3vh;
+  left: 18vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 0.2857142857s;
+  animation-duration: 5s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(92) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.8;
+  width: 4vw;
+  height: 4vh;
+  left: 86vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 2s;
+  animation-duration: 4s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(93) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.9;
+  width: 4vw;
+  height: 4vh;
+  left: 66vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 1.6s;
+  animation-duration: 5s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(94) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.7;
+  width: 3vw;
+  height: 3vh;
+  left: 73vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 9s;
+  animation-duration: 4.25s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(95) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.6;
+  width: 5vw;
+  height: 5vh;
+  left: 68vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 6s;
+  animation-duration: 3.5s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(96) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.3;
+  width: 4vw;
+  height: 4vh;
+  left: 84vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+  animation-duration: 3.3333333333s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(97) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.6;
+  width: 3vw;
+  height: 4vh;
+  left: 40vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 1.4s;
+  animation-duration: 3.6666666667s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(98) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.1;
+  width: 4vw;
+  height: 5vh;
+  left: 14vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 4.5s;
+  animation-duration: 6s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(99) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.1;
+  width: 4vw;
+  height: 4vh;
+  left: 60vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 2.5s;
+  animation-duration: 3.3333333333s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#particle:nth-child(100) {
+  background-color: #5E1DF3;
+  border-radius: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 130vh;
+  opacity: 0.3;
+  width: 4vw;
+  height: 4vh;
+  left: 13vw;
+  animation-name: particle1;
+  animation-timing-function: ease(in-out-circ);
+  animation-iteration-count: infinite;
+  animation-delay: 0.7142857143s;
+  animation-duration: 3.3333333333s; }
+
+@keyframes particle1 {
+  0% {
+    top: 100vh; }
+  100% {
+    top: -30vh; } }
+#indexMain {
+  height: 100vh;
+  position: relative;
+  z-index: 3;
+  background-color: #0E1212;
+  -webkit-box-shadow: 0px -5px 4px 0px rgba(0, 0, 0, 0.29);
+  box-shadow: 0px -5px 4px 0px rgba(0, 0, 0, 0.29); }
+
+#firstMain {
+  left: -100vw;
+  height: 100vh;
+  position: relative;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center; }
+
+.mainButtonStyle {
+  background-color: #0E1212;
+  color: #D7D6D8;
+  font-size: 2vw;
+  outline: none;
+  position: relative;
+  z-index: 4;
+  border: 4px solid white;
+  padding: 2px;
+  transition: background-color 1s; }
+  .mainButtonStyle:hover {
+    text-decoration: none;
+    color: #D7D6D8;
+    background-color: #7AC3B1;
+    animation-name: headerButton;
+    animation-duration: 2s; }
+
+.linkButtonStyle {
+  background-color: #0E1212;
+  color: #D7D6D8;
+  font-size: 1vw;
+  outline: none;
+  position: relative;
+  z-index: 4;
+  border: 2px solid white;
+  padding: 2px;
+  transition: background-color 1s; }
+  .linkButtonStyle:hover {
+    text-decoration: none;
+    color: #D7D6D8;
+    background-color: #7AC3B1;
+    animation-name: headerButton;
+    animation-duration: 2s; }
+
+.firstMainDivs {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+#skillsWindow {
+  display: none;
+  position: absolute;
+  z-index: 7;
+  width: 50%;
+  height: 70%;
+  margin: 0 auto;
+  background-color: #0E1212;
+  color: #D7D6D8;
+  border: 4px solid white;
+  text-align: center; }
+
+#closeBtn {
+  top: 1%;
+  left: 1%;
+  height: 40px; }
+  #closeBtn h1 {
+    margin-top: -10px; }
+
+#skillBoard {
+  display: flex;
+  align-item: center; }
+  #skillBoard ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style-type: none; }
+  #skillBoard ul li {
+    padding: 3%; }
+
+#aboutMe {
+  border: 4px solid white;
+  width: 30%;
+  text-align: center;
+  color: white;
+  background-color: #0E1212;
+  color: #D7D6D8;
+  padding-left: 1vw;
+  padding-right: 1vw; }
+  #aboutMe:hover {
+    animation-name: headerButton;
+    animation-duration: 2s; }
+  #aboutMe h1 {
+    color: #5E1DF3;
+    font-size: 4vw; }
+  #aboutMe span {
+    font-size: 1.5vw; }
+
+#aboutMe div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+  #aboutMe div a {
+    text-decoration: none; }
+
+@media only screen and (max-width: 600px) {
+  #firstMain {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; }
+
+  .firstMainDivs {
+    width: 80%; }
+
+  #aboutMe {
+    width: 100%; }
+    #aboutMe h1 {
+      font-size: 50px; }
+    #aboutMe span {
+      font-size: 20px; }
+
+  .mainButtonStyle {
+    font-size: 50px; }
+
+  .linkButtonStyle {
+    font-size: 30px; }
+
+  #skillsWindow {
+    width: 100%;
+    height: 110%; } }
+footer {
+  background-color: #0E1212;
+  text-align: center;
+  height: 100%;
+  padding-bottom: 50px; }
+  footer p {
+    margin-top: 4vh;
+    color: #D7D6D8; }
+  footer h3 {
+    padding-bottom: 1vh;
+    color: #D7D6D8; }
+
+#mainProjects {
+  background-color: #0E1212;
+  min-height: 100vh; }
+
+#backBtn {
+  top: 2vh;
+  left: 2vw; }
+
+@media only screen and (max-width: 600px) {
+  #backBtn {
+    margin-bottom: 30px; } }
+
+/*# sourceMappingURL=main.css.map */

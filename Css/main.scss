@@ -1,0 +1,395 @@
+
+
+$primaryBackground:  #0E1212; //black
+$fitToBackground: #7AC3B1; //turquoise
+$ariaHight: 100vh;
+
+$particleHeader: #5E1DF3; //violett
+$fitToParticle: #FFBA39;  //gold  
+$primaryFontColor: #D7D6D8; //white
+
+%borderRadius{
+    border-radius: 5px;
+}
+
+body {
+    display: none;
+}
+
+*:focus{
+    outline: 0 !important;
+}
+
+*{
+    font-family:'Raleway', sans-serif;
+}
+
+
+//************************************************** header area ***********************************************************************************
+
+#indexHead {
+    background-color:$primaryBackground;
+    height: $ariaHight;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerText {
+    color: $primaryFontColor;
+
+}
+
+ #hText1{
+    position: absolute;
+    top: 5vh;
+    left: 5vw;
+    font-size: 13vw;
+}
+
+#hText2{
+    position: absolute;
+    left: 20vw;
+    top: 40vh;
+    font-size: 3vw;
+}
+
+#hText3{
+    position: absolute;
+    transform: rotate(5deg);
+    top: 60vh;
+    left: 5vw;
+    font-size: 7vw;
+}
+
+#headerButton{
+    @extend %borderRadius;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4vh;
+    height: 7vh;
+    width: 12vw;
+    font-size: 20px;
+    border: 4px solid white;
+    background-color: $primaryBackground;
+    color: $primaryFontColor;
+    z-index: 3;
+    outline:none;
+    transition: background-color 1s;
+    &:hover{
+        background-color: $fitToBackground;
+        animation-name: headerButton;
+        animation-duration: 2s;
+    }
+
+}
+
+@keyframes headerButton{
+    0%{border-left-color: $fitToParticle;}
+    50%{border-bottom-color: $fitToParticle; border-top-color: $fitToParticle;}
+    100%{border-right-color: $fitToParticle;}    
+}
+
+@media only screen and (max-width: 600px){
+    #headerButton{
+        width: 50vw;
+    }
+
+    #hText1{
+        font-size: 20vw;
+    }
+
+    #hText2{
+        font-size: 10vw;
+        top: 25vh;
+    }
+
+    #hText3{
+        font-size: 10vw;
+        top: 70vh;
+    }
+
+}@media only screen and (min-width: 601px){
+    #headerButton{
+        width: 35vw;
+    }
+
+    #hText2{
+        top: 30vh;
+        font-size: 6vw;
+    }
+}@media only screen and (min-width: 1000px){
+    #headerButton{
+        width: 17vw;
+    }
+
+    #hText2{
+        font-size: 3vw;
+        top: 40vh;
+    }
+}
+
+@for $i from 1 through 100{
+
+    #particle:nth-child(#{$i}){
+    background-color: $particleHeader;   
+    border-radius: 15px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+    top: 130vh;
+    opacity: random(9) / 10;
+    width: random(3) + 2vw;
+    height: random(3)  + 2vh;
+    left: random(90) + 0vw;
+    animation-name: particle1;
+    animation-timing-function: ease(in-out-circ);
+    animation-iteration-count: infinite;
+    animation-delay: random(10) / random(9) + 0s;
+    animation-duration: random(6) / random(4) + 3s;
+    }
+
+    @keyframes particle1{
+       0%{top: 100vh;}
+       100%{top: -30vh;}
+    }
+}
+
+
+
+
+//**********************************************************************   Main area ************************************************************************
+#indexMain{
+    height:100vh;
+    position: relative;
+    z-index: 3;
+    background-color: $primaryBackground;
+    -webkit-box-shadow: 0px -5px 4px 0px rgba(0,0,0,0.29); 
+    box-shadow: 0px -5px 4px 0px rgba(0,0,0,0.29); 
+}
+#firstMain{
+    left: -100vw;
+    height: 100vh; 
+    position: relative;      
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mainButtonStyle { 
+    @extend %borderRadius;
+    background-color: $primaryBackground;
+    color: $primaryFontColor;
+    font-size: 2vw;
+    outline:none;
+    position: relative;
+    z-index: 4;
+    border: 4px solid white;
+    padding: 2px;
+    transition: background-color 1s;
+    &:hover{
+        text-decoration: none;
+        color: $primaryFontColor;
+        background-color: $fitToBackground;
+        animation-name: headerButton;
+        animation-duration: 2s;
+    }    
+}
+
+.linkButtonStyle{
+    @extend %borderRadius;
+    background-color: $primaryBackground;
+    color: $primaryFontColor;
+    font-size: 1vw;
+    outline:none;
+    position: relative;
+    z-index: 4;
+    border: 2px solid white;
+    padding: 2px;
+    transition: background-color 1s;
+    &:hover{
+        text-decoration: none;
+        color: $primaryFontColor;
+        background-color: $fitToBackground;
+        animation-name: headerButton;
+        animation-duration: 2s;
+    }    
+}
+
+.firstMainDivs{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#skillsWindow{
+    @extend %borderRadius;    
+    display: none;
+    position: absolute;
+    z-index: 7;
+    width: 50%;
+    height: 70%;
+    margin: 0 auto;   
+    background-color: $primaryBackground;
+    color: $primaryFontColor;
+    border: 4px solid white; 
+    text-align: center;   
+}
+
+#closeBtn{
+    @extend %borderRadius;    
+    top:1%;
+    left: 1%;
+    height: 40px;
+    h1{
+        margin-top: -10px;
+    }
+}
+
+
+#skillBoard{
+    display: flex;
+    align-item:center;
+    ul{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap; 
+        justify-content: space-around; 
+        list-style-type: none;
+    }
+    ul li{
+        padding: 3%;
+    }
+}
+
+#aboutMe{
+    @extend %borderRadius;
+    border: 4px solid white;
+    width: 30%;
+    text-align: center;
+    color: white;   
+    background-color: $primaryBackground;
+    color: $primaryFontColor;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    &:hover{
+        animation-name: headerButton;
+        animation-duration: 2s;
+    }
+    h1{
+        color: $particleHeader;
+        font-size: 4vw;
+ 
+    }
+    span{
+    font-size: 1.5vw;
+    
+    }
+}
+
+#aboutMe div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    a{
+       text-decoration: none; 
+    }
+    
+}
+
+@media only screen and (max-width: 600px){
+    #firstMain{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .firstMainDivs{
+    width: 80%;
+    }
+
+    #aboutMe{
+        width: 100%;
+        h1{
+            font-size: 50px;
+        }
+        span{
+            font-size: 20px;
+        }
+    }
+
+    .mainButtonStyle{
+        font-size: 50px;
+    }
+
+    .linkButtonStyle{
+        font-size: 30px;
+    }
+
+    #skillsWindow{
+        width: 100%;
+        height: 110%;
+    }
+
+
+}@media only screen and (min-width: 601px){
+
+}@media only screen and (min-width: 1000px){
+
+}
+
+
+//****************************************************** footer area ********************************************************************
+
+
+footer{
+    background-color: $primaryBackground;
+    text-align: center;
+    height: 100%;
+    padding-bottom: 50px;
+    p{
+        margin-top: 4vh;
+        color: $primaryFontColor;
+    }
+
+    h3{
+        padding-bottom: 1vh;
+        color: $primaryFontColor;
+    }
+}
+
+
+
+
+//*************************************************projects page *************************************************************************
+
+
+#mainProjects{
+    background-color: $primaryBackground;
+    min-height: 100vh;
+}
+
+#backBtn{
+    top: 2vh;
+    left: 2vw;
+}
+
+@media only screen and (max-width: 600px){
+    #backBtn{
+        margin-bottom: 30px;
+    }
+
+
+}@media only screen and (min-width: 601px){
+
+}@media only screen and (min-width: 1000px){
+
+}
