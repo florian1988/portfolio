@@ -30,9 +30,7 @@ body {
 
 #hText2 {
   position: absolute;
-  left: 20vw;
-  top: 40vh;
-  font-size: 3vw; }
+  left: 20vw; }
 
 #hText3 {
   position: absolute;
@@ -49,7 +47,6 @@ body {
   align-items: center;
   margin-top: 4vh;
   height: 7vh;
-  width: 12vw;
   font-size: 20px;
   border: 4px solid white;
   background-color: #0E1212;
@@ -91,9 +88,9 @@ body {
   #hText2 {
     top: 30vh;
     font-size: 6vw; } }
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1030px) {
   #headerButton {
-    width: 17vw; }
+    width: 18vw; }
 
   #hText2 {
     font-size: 3vw;
@@ -105,14 +102,14 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.2;
+  opacity: 0.5;
   width: 5vw;
-  height: 4vh;
-  left: 9vw;
+  height: 3vh;
+  left: 60vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 2.5s;
+  animation-delay: 0.8333333333s;
   animation-duration: 5s; }
 
 @keyframes particle1 {
@@ -127,15 +124,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.3;
-  width: 4vw;
-  height: 3vh;
-  left: 32vw;
+  opacity: 0.1;
+  width: 5vw;
+  height: 4vh;
+  left: 24vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 1.5s;
-  animation-duration: 6s; }
+  animation-delay: 2.5s;
+  animation-duration: 4s; }
 
 @keyframes particle1 {
   0% {
@@ -149,14 +146,14 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.9;
+  opacity: 0.7;
   width: 3vw;
   height: 4vh;
-  left: 11vw;
+  left: 37vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 1s;
+  animation-delay: 2.5s;
   animation-duration: 4s; }
 
 @keyframes particle1 {
@@ -173,13 +170,13 @@ body {
   top: 130vh;
   opacity: 0.5;
   width: 3vw;
-  height: 3vh;
-  left: 88vw;
+  height: 5vh;
+  left: 20vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
   animation-delay: 0.3333333333s;
-  animation-duration: 6s; }
+  animation-duration: 5s; }
 
 @keyframes particle1 {
   0% {
@@ -193,14 +190,14 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.6;
-  width: 3vw;
-  height: 3vh;
-  left: 8vw;
+  opacity: 0.4;
+  width: 4vw;
+  height: 5vh;
+  left: 34vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 0.3333333333s;
+  animation-delay: 2s;
   animation-duration: 8s; }
 
 @keyframes particle1 {
@@ -215,15 +212,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.3;
+  opacity: 0.6;
   width: 4vw;
-  height: 4vh;
-  left: 41vw;
+  height: 3vh;
+  left: 51vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 1s;
-  animation-duration: 8s; }
+  animation-delay: 3s;
+  animation-duration: 3.5s; }
 
 @keyframes particle1 {
   0% {
@@ -237,15 +234,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.5;
-  width: 5vw;
-  height: 4vh;
-  left: 53vw;
+  opacity: 0.8;
+  width: 3vw;
+  height: 5vh;
+  left: 21vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 3.5s;
-  animation-duration: 3.75s; }
+  animation-delay: 0.3333333333s;
+  animation-duration: 6s; }
 
 @keyframes particle1 {
   0% {
@@ -261,13 +258,13 @@ body {
   top: 130vh;
   opacity: 0.3;
   width: 5vw;
-  height: 3vh;
-  left: 43vw;
+  height: 4vh;
+  left: 3vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 1.3333333333s;
-  animation-duration: 3.25s; }
+  animation-delay: 0.2s;
+  animation-duration: 3.6666666667s; }
 
 @keyframes particle1 {
   0% {
@@ -281,15 +278,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.2;
-  width: 5vw;
-  height: 5vh;
-  left: 2vw;
+  opacity: 0.7;
+  width: 3vw;
+  height: 4vh;
+  left: 82vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 0.75s;
-  animation-duration: 4.25s; }
+  animation-delay: 0.5s;
+  animation-duration: 6s; }
 
 @keyframes particle1 {
   0% {
@@ -303,15 +300,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.1;
+  opacity: 0.6;
   width: 5vw;
-  height: 3vh;
-  left: 5vw;
+  height: 4vh;
+  left: 66vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 0.5s;
-  animation-duration: 3.75s; }
+  animation-delay: 0.1428571429s;
+  animation-duration: 4s; }
 
 @keyframes particle1 {
   0% {
@@ -325,15 +322,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.7;
-  width: 4vw;
+  opacity: 0.9;
+  width: 3vw;
   height: 3vh;
-  left: 15vw;
+  left: 50vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 0.1666666667s;
-  animation-duration: 9s; }
+  animation-delay: 0.5s;
+  animation-duration: 5s; }
 
 @keyframes particle1 {
   0% {
@@ -347,15 +344,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.5;
-  width: 3vw;
-  height: 4vh;
-  left: 25vw;
+  opacity: 0.8;
+  width: 4vw;
+  height: 5vh;
+  left: 60vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 1.3333333333s;
-  animation-duration: 7s; }
+  animation-delay: 1.25s;
+  animation-duration: 4.5s; }
 
 @keyframes particle1 {
   0% {
@@ -369,15 +366,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.8;
-  width: 5vw;
-  height: 5vh;
-  left: 48vw;
+  opacity: 0.3;
+  width: 3vw;
+  height: 3vh;
+  left: 38vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 0.7777777778s;
-  animation-duration: 4.3333333333s; }
+  animation-delay: 3s;
+  animation-duration: 3.5s; }
 
 @keyframes particle1 {
   0% {
@@ -391,15 +388,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.3;
+  opacity: 0.5;
   width: 3vw;
-  height: 4vh;
-  left: 61vw;
+  height: 5vh;
+  left: 72vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 0.7777777778s;
-  animation-duration: 4.3333333333s; }
+  animation-delay: 1.6666666667s;
+  animation-duration: 8s; }
 
 @keyframes particle1 {
   0% {
@@ -413,15 +410,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.8;
-  width: 4vw;
+  opacity: 0.6;
+  width: 3vw;
   height: 4vh;
-  left: 62vw;
+  left: 40vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 3s;
-  animation-duration: 8s; }
+  animation-delay: 1.3333333333s;
+  animation-duration: 4.3333333333s; }
 
 @keyframes particle1 {
   0% {
@@ -435,14 +432,14 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.1;
+  opacity: 0.2;
   width: 5vw;
-  height: 5vh;
-  left: 8vw;
+  height: 4vh;
+  left: 46vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 9s;
+  animation-delay: 0.4s;
   animation-duration: 5.5s; }
 
 @keyframes particle1 {
@@ -457,15 +454,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.7;
+  opacity: 0.8;
   width: 5vw;
-  height: 5vh;
+  height: 4vh;
   left: 80vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 2.3333333333s;
-  animation-duration: 5s; }
+  animation-delay: 9s;
+  animation-duration: 3.6666666667s; }
 
 @keyframes particle1 {
   0% {
@@ -479,15 +476,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.6;
-  width: 3vw;
+  opacity: 0.5;
+  width: 5vw;
   height: 4vh;
-  left: 71vw;
+  left: 81vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 3.3333333333s;
-  animation-duration: 6s; }
+  animation-delay: 0.6666666667s;
+  animation-duration: 3.25s; }
 
 @keyframes particle1 {
   0% {
@@ -503,13 +500,13 @@ body {
   top: 130vh;
   opacity: 0.1;
   width: 3vw;
-  height: 3vh;
+  height: 5vh;
   left: 46vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 1.75s;
-  animation-duration: 3.3333333333s; }
+  animation-delay: 1.3333333333s;
+  animation-duration: 3.6666666667s; }
 
 @keyframes particle1 {
   0% {
@@ -523,15 +520,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.1;
-  width: 3vw;
+  opacity: 0.4;
+  width: 5vw;
   height: 5vh;
-  left: 67vw;
+  left: 22vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 0.2857142857s;
-  animation-duration: 4s; }
+  animation-delay: 5s;
+  animation-duration: 7s; }
 
 @keyframes particle1 {
   0% {
@@ -545,15 +542,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.1;
-  width: 5vw;
-  height: 5vh;
-  left: 82vw;
+  opacity: 0.5;
+  width: 3vw;
+  height: 3vh;
+  left: 30vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 1.3333333333s;
-  animation-duration: 4s; }
+  animation-delay: 1.1428571429s;
+  animation-duration: 8s; }
 
 @keyframes particle1 {
   0% {
@@ -567,15 +564,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.5;
-  width: 5vw;
-  height: 5vh;
-  left: 51vw;
+  opacity: 0.6;
+  width: 4vw;
+  height: 3vh;
+  left: 7vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 4s;
-  animation-duration: 3.25s; }
+  animation-delay: 0.2222222222s;
+  animation-duration: 9s; }
 
 @keyframes particle1 {
   0% {
@@ -589,15 +586,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.7;
-  width: 5vw;
+  opacity: 0.6;
+  width: 4vw;
   height: 4vh;
-  left: 20vw;
+  left: 39vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 0.3333333333s;
-  animation-duration: 4s; }
+  animation-delay: 0.4444444444s;
+  animation-duration: 4.5s; }
 
 @keyframes particle1 {
   0% {
@@ -612,13 +609,13 @@ body {
   z-index: 2;
   top: 130vh;
   opacity: 0.4;
-  width: 5vw;
-  height: 3vh;
-  left: 15vw;
+  width: 3vw;
+  height: 4vh;
+  left: 62vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 1.25s;
+  animation-delay: 1s;
   animation-duration: 4s; }
 
 @keyframes particle1 {
@@ -633,15 +630,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.1;
+  opacity: 0.2;
   width: 5vw;
-  height: 3vh;
-  left: 70vw;
+  height: 5vh;
+  left: 88vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 0.1428571429s;
-  animation-duration: 8s; }
+  animation-delay: 1.1666666667s;
+  animation-duration: 6s; }
 
 @keyframes particle1 {
   0% {
@@ -655,15 +652,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.6;
-  width: 4vw;
+  opacity: 0.5;
+  width: 3vw;
   height: 4vh;
-  left: 82vw;
+  left: 43vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 0.3333333333s;
-  animation-duration: 4s; }
+  animation-delay: 5s;
+  animation-duration: 4.25s; }
 
 @keyframes particle1 {
   0% {
@@ -677,15 +674,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.5;
-  width: 4vw;
-  height: 4vh;
-  left: 89vw;
+  opacity: 0.2;
+  width: 3vw;
+  height: 3vh;
+  left: 10vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 3.3333333333s;
-  animation-duration: 3.75s; }
+  animation-delay: 1s;
+  animation-duration: 3.5s; }
 
 @keyframes particle1 {
   0% {
@@ -699,15 +696,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.7;
-  width: 4vw;
-  height: 5vh;
-  left: 68vw;
+  opacity: 0.1;
+  width: 3vw;
+  height: 3vh;
+  left: 38vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 1s;
-  animation-duration: 5.5s; }
+  animation-delay: 0.6s;
+  animation-duration: 3.5s; }
 
 @keyframes particle1 {
   0% {
@@ -721,15 +718,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.9;
-  width: 5vw;
+  opacity: 0.8;
+  width: 3vw;
   height: 5vh;
-  left: 5vw;
+  left: 10vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 0.625s;
-  animation-duration: 3.3333333333s; }
+  animation-delay: 2s;
+  animation-duration: 4.5s; }
 
 @keyframes particle1 {
   0% {
@@ -743,15 +740,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.5;
-  width: 3vw;
+  opacity: 0.8;
+  width: 5vw;
   height: 5vh;
-  left: 70vw;
+  left: 55vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 2s;
-  animation-duration: 4.3333333333s; }
+  animation-delay: 0.7777777778s;
+  animation-duration: 3.3333333333s; }
 
 @keyframes particle1 {
   0% {
@@ -765,15 +762,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.5;
-  width: 3vw;
-  height: 5vh;
-  left: 25vw;
+  opacity: 0.1;
+  width: 4vw;
+  height: 4vh;
+  left: 43vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 0.4285714286s;
-  animation-duration: 4.6666666667s; }
+  animation-delay: 1s;
+  animation-duration: 3.6666666667s; }
 
 @keyframes particle1 {
   0% {
@@ -787,15 +784,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.1;
-  width: 4vw;
-  height: 5vh;
-  left: 73vw;
+  opacity: 0.2;
+  width: 3vw;
+  height: 4vh;
+  left: 60vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 1.5s;
-  animation-duration: 3.3333333333s; }
+  animation-delay: 0.1111111111s;
+  animation-duration: 5s; }
 
 @keyframes particle1 {
   0% {
@@ -809,15 +806,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.3;
-  width: 3vw;
-  height: 4vh;
-  left: 81vw;
+  opacity: 0.6;
+  width: 4vw;
+  height: 5vh;
+  left: 1vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 0.625s;
-  animation-duration: 9s; }
+  animation-delay: 0.7777777778s;
+  animation-duration: 4s; }
 
 @keyframes particle1 {
   0% {
@@ -831,15 +828,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.7;
-  width: 5vw;
-  height: 3vh;
-  left: 54vw;
+  opacity: 0.1;
+  width: 4vw;
+  height: 5vh;
+  left: 28vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 0.875s;
-  animation-duration: 9s; }
+  animation-delay: 1.8s;
+  animation-duration: 4.25s; }
 
 @keyframes particle1 {
   0% {
@@ -853,15 +850,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.8;
-  width: 5vw;
-  height: 4vh;
-  left: 88vw;
+  opacity: 0.6;
+  width: 4vw;
+  height: 5vh;
+  left: 2vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 2.5s;
-  animation-duration: 9s; }
+  animation-delay: 1s;
+  animation-duration: 4s; }
 
 @keyframes particle1 {
   0% {
@@ -875,15 +872,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.7;
-  width: 3vw;
-  height: 5vh;
-  left: 11vw;
+  opacity: 0.1;
+  width: 4vw;
+  height: 3vh;
+  left: 13vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 1.3333333333s;
-  animation-duration: 4s; }
+  animation-delay: 0.8333333333s;
+  animation-duration: 4.5s; }
 
 @keyframes particle1 {
   0% {
@@ -897,15 +894,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.8;
-  width: 3vw;
+  opacity: 0.7;
+  width: 5vw;
   height: 4vh;
-  left: 56vw;
+  left: 89vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 1.6666666667s;
-  animation-duration: 4.5s; }
+  animation-delay: 3s;
+  animation-duration: 3.25s; }
 
 @keyframes particle1 {
   0% {
@@ -919,15 +916,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.8;
+  opacity: 0.2;
   width: 3vw;
   height: 4vh;
-  left: 30vw;
+  left: 42vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 0.3333333333s;
-  animation-duration: 3.25s; }
+  animation-delay: 2s;
+  animation-duration: 4s; }
 
 @keyframes particle1 {
   0% {
@@ -941,15 +938,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.5;
-  width: 4vw;
-  height: 4vh;
-  left: 6vw;
+  opacity: 0.4;
+  width: 3vw;
+  height: 3vh;
+  left: 56vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 3s;
-  animation-duration: 4s; }
+  animation-delay: 0.1428571429s;
+  animation-duration: 8s; }
 
 @keyframes particle1 {
   0% {
@@ -963,15 +960,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.8;
-  width: 4vw;
+  opacity: 0.4;
+  width: 5vw;
   height: 3vh;
-  left: 82vw;
+  left: 79vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 1.6666666667s;
-  animation-duration: 5s; }
+  animation-delay: 0.5714285714s;
+  animation-duration: 3.25s; }
 
 @keyframes particle1 {
   0% {
@@ -985,15 +982,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.2;
-  width: 4vw;
-  height: 4vh;
-  left: 3vw;
+  opacity: 0.6;
+  width: 3vw;
+  height: 3vh;
+  left: 20vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 7s;
-  animation-duration: 9s; }
+  animation-delay: 2.25s;
+  animation-duration: 3.25s; }
 
 @keyframes particle1 {
   0% {
@@ -1008,14 +1005,14 @@ body {
   z-index: 2;
   top: 130vh;
   opacity: 0.8;
-  width: 3vw;
-  height: 4vh;
-  left: 10vw;
+  width: 4vw;
+  height: 3vh;
+  left: 46vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 0.5555555556s;
-  animation-duration: 3.5s; }
+  animation-delay: 0.75s;
+  animation-duration: 3.25s; }
 
 @keyframes particle1 {
   0% {
@@ -1029,15 +1026,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.4;
+  opacity: 0.8;
   width: 4vw;
-  height: 5vh;
-  left: 9vw;
+  height: 3vh;
+  left: 67vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 2.6666666667s;
-  animation-duration: 3.5s; }
+  animation-delay: 8s;
+  animation-duration: 5.5s; }
 
 @keyframes particle1 {
   0% {
@@ -1051,15 +1048,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.1;
-  width: 3vw;
-  height: 3vh;
-  left: 5vw;
+  opacity: 0.4;
+  width: 4vw;
+  height: 5vh;
+  left: 70vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 1.25s;
-  animation-duration: 4s; }
+  animation-delay: 1s;
+  animation-duration: 5.5s; }
 
 @keyframes particle1 {
   0% {
@@ -1073,15 +1070,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.9;
-  width: 3vw;
-  height: 5vh;
-  left: 70vw;
+  opacity: 0.1;
+  width: 4vw;
+  height: 4vh;
+  left: 51vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 1.2s;
-  animation-duration: 3.5s; }
+  animation-delay: 1.75s;
+  animation-duration: 9s; }
 
 @keyframes particle1 {
   0% {
@@ -1095,15 +1092,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.6;
-  width: 3vw;
-  height: 3vh;
-  left: 67vw;
+  opacity: 0.5;
+  width: 4vw;
+  height: 5vh;
+  left: 31vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 1s;
-  animation-duration: 4s; }
+  animation-delay: 1.1666666667s;
+  animation-duration: 3.5s; }
 
 @keyframes particle1 {
   0% {
@@ -1117,15 +1114,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.4;
-  width: 4vw;
-  height: 5vh;
-  left: 35vw;
+  opacity: 0.3;
+  width: 3vw;
+  height: 3vh;
+  left: 5vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
   animation-delay: 1.125s;
-  animation-duration: 4.25s; }
+  animation-duration: 8s; }
 
 @keyframes particle1 {
   0% {
@@ -1139,15 +1136,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.7;
-  width: 3vw;
-  height: 5vh;
-  left: 77vw;
+  opacity: 0.2;
+  width: 4vw;
+  height: 4vh;
+  left: 82vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 2.25s;
-  animation-duration: 3.3333333333s; }
+  animation-delay: 1.1111111111s;
+  animation-duration: 4s; }
 
 @keyframes particle1 {
   0% {
@@ -1161,15 +1158,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.6;
-  width: 4vw;
+  opacity: 0.5;
+  width: 5vw;
   height: 3vh;
-  left: 50vw;
+  left: 34vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 6s;
-  animation-duration: 9s; }
+  animation-delay: 2.5s;
+  animation-duration: 5s; }
 
 @keyframes particle1 {
   0% {
@@ -1183,15 +1180,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.2;
-  width: 3vw;
-  height: 3vh;
-  left: 26vw;
+  opacity: 0.8;
+  width: 5vw;
+  height: 4vh;
+  left: 60vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 0.5s;
-  animation-duration: 4s; }
+  animation-delay: 9s;
+  animation-duration: 3.75s; }
 
 @keyframes particle1 {
   0% {
@@ -1205,15 +1202,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.2;
-  width: 3vw;
+  opacity: 0.7;
+  width: 5vw;
   height: 3vh;
-  left: 9vw;
+  left: 6vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 1.3333333333s;
-  animation-duration: 4.5s; }
+  animation-delay: 7s;
+  animation-duration: 7s; }
 
 @keyframes particle1 {
   0% {
@@ -1227,15 +1224,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.6;
+  opacity: 0.5;
   width: 5vw;
-  height: 3vh;
-  left: 58vw;
+  height: 5vh;
+  left: 35vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 1.4285714286s;
-  animation-duration: 4.5s; }
+  animation-delay: 0.3333333333s;
+  animation-duration: 3.5s; }
 
 @keyframes particle1 {
   0% {
@@ -1249,15 +1246,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.9;
-  width: 3vw;
+  opacity: 0.8;
+  width: 5vw;
   height: 5vh;
   left: 69vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 1.6666666667s;
-  animation-duration: 8s; }
+  animation-delay: 2.5s;
+  animation-duration: 4s; }
 
 @keyframes particle1 {
   0% {
@@ -1271,15 +1268,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.8;
+  opacity: 0.9;
   width: 3vw;
   height: 5vh;
-  left: 7vw;
+  left: 14vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 8s;
-  animation-duration: 4s; }
+  animation-delay: 1s;
+  animation-duration: 4.25s; }
 
 @keyframes particle1 {
   0% {
@@ -1295,13 +1292,13 @@ body {
   top: 130vh;
   opacity: 0.5;
   width: 4vw;
-  height: 4vh;
-  left: 38vw;
+  height: 3vh;
+  left: 56vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 1.4s;
-  animation-duration: 5s; }
+  animation-delay: 0.3333333333s;
+  animation-duration: 4.25s; }
 
 @keyframes particle1 {
   0% {
@@ -1315,15 +1312,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.3;
+  opacity: 0.7;
   width: 5vw;
-  height: 3vh;
-  left: 81vw;
+  height: 4vh;
+  left: 28vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 3s;
-  animation-duration: 7s; }
+  animation-delay: 0.4444444444s;
+  animation-duration: 4s; }
 
 @keyframes particle1 {
   0% {
@@ -1337,15 +1334,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.2;
-  width: 5vw;
+  opacity: 0.8;
+  width: 4vw;
   height: 4vh;
-  left: 59vw;
+  left: 14vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 0.75s;
-  animation-duration: 6s; }
+  animation-delay: 2.25s;
+  animation-duration: 3.6666666667s; }
 
 @keyframes particle1 {
   0% {
@@ -1359,15 +1356,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.6;
-  width: 4vw;
+  opacity: 0.9;
+  width: 3vw;
   height: 4vh;
-  left: 71vw;
+  left: 90vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 1.2857142857s;
-  animation-duration: 4.5s; }
+  animation-delay: 3.5s;
+  animation-duration: 4.3333333333s; }
 
 @keyframes particle1 {
   0% {
@@ -1381,15 +1378,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.3;
-  width: 5vw;
+  opacity: 0.5;
+  width: 3vw;
   height: 4vh;
-  left: 8vw;
+  left: 28vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 0.7142857143s;
-  animation-duration: 4s; }
+  animation-delay: 1.75s;
+  animation-duration: 4.25s; }
 
 @keyframes particle1 {
   0% {
@@ -1403,15 +1400,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.8;
+  opacity: 0.2;
   width: 3vw;
-  height: 4vh;
-  left: 64vw;
+  height: 5vh;
+  left: 65vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 1.2857142857s;
-  animation-duration: 4s; }
+  animation-delay: 1.6s;
+  animation-duration: 7s; }
 
 @keyframes particle1 {
   0% {
@@ -1425,15 +1422,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.7;
-  width: 4vw;
+  opacity: 0.8;
+  width: 3vw;
   height: 3vh;
-  left: 43vw;
+  left: 42vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 0.3333333333s;
-  animation-duration: 4s; }
+  animation-delay: 0.6666666667s;
+  animation-duration: 5.5s; }
 
 @keyframes particle1 {
   0% {
@@ -1447,15 +1444,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.9;
+  opacity: 0.3;
   width: 4vw;
   height: 3vh;
-  left: 46vw;
+  left: 41vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 1s;
-  animation-duration: 6s; }
+  animation-delay: 0.5s;
+  animation-duration: 4.3333333333s; }
 
 @keyframes particle1 {
   0% {
@@ -1469,15 +1466,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.3;
+  opacity: 0.4;
   width: 4vw;
   height: 4vh;
-  left: 64vw;
+  left: 49vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 0.2s;
-  animation-duration: 4s; }
+  animation-delay: 3.3333333333s;
+  animation-duration: 4.6666666667s; }
 
 @keyframes particle1 {
   0% {
@@ -1491,15 +1488,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.3;
-  width: 5vw;
-  height: 3vh;
-  left: 2vw;
+  opacity: 0.4;
+  width: 3vw;
+  height: 4vh;
+  left: 57vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 8s;
-  animation-duration: 4.25s; }
+  animation-delay: 1.2857142857s;
+  animation-duration: 4.5s; }
 
 @keyframes particle1 {
   0% {
@@ -1513,15 +1510,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.7;
-  width: 5vw;
-  height: 4vh;
-  left: 28vw;
+  opacity: 0.1;
+  width: 3vw;
+  height: 5vh;
+  left: 58vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 0.25s;
-  animation-duration: 3.3333333333s; }
+  animation-delay: 0.3333333333s;
+  animation-duration: 4.6666666667s; }
 
 @keyframes particle1 {
   0% {
@@ -1535,14 +1532,14 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.5;
-  width: 5vw;
-  height: 4vh;
-  left: 21vw;
+  opacity: 0.8;
+  width: 3vw;
+  height: 5vh;
+  left: 2vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 0.6666666667s;
+  animation-delay: 0.7777777778s;
   animation-duration: 6s; }
 
 @keyframes particle1 {
@@ -1559,13 +1556,13 @@ body {
   top: 130vh;
   opacity: 0.4;
   width: 3vw;
-  height: 4vh;
-  left: 48vw;
+  height: 3vh;
+  left: 24vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 0.7777777778s;
-  animation-duration: 7s; }
+  animation-delay: 1.4285714286s;
+  animation-duration: 3.3333333333s; }
 
 @keyframes particle1 {
   0% {
@@ -1579,15 +1576,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.4;
-  width: 4vw;
-  height: 3vh;
-  left: 66vw;
+  opacity: 0.2;
+  width: 3vw;
+  height: 5vh;
+  left: 68vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 1.2s;
-  animation-duration: 4.25s; }
+  animation-delay: 5s;
+  animation-duration: 5s; }
 
 @keyframes particle1 {
   0% {
@@ -1602,14 +1599,14 @@ body {
   z-index: 2;
   top: 130vh;
   opacity: 0.4;
-  width: 3vw;
-  height: 4vh;
-  left: 53vw;
+  width: 4vw;
+  height: 5vh;
+  left: 17vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 1.3333333333s;
-  animation-duration: 4s; }
+  animation-delay: 0.625s;
+  animation-duration: 3.5s; }
 
 @keyframes particle1 {
   0% {
@@ -1623,15 +1620,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.3;
-  width: 5vw;
-  height: 4vh;
-  left: 87vw;
+  opacity: 0.2;
+  width: 3vw;
+  height: 5vh;
+  left: 58vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 0.3333333333s;
-  animation-duration: 4s; }
+  animation-delay: 0.375s;
+  animation-duration: 4.25s; }
 
 @keyframes particle1 {
   0% {
@@ -1645,14 +1642,14 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.6;
-  width: 3vw;
-  height: 5vh;
-  left: 27vw;
+  opacity: 0.7;
+  width: 4vw;
+  height: 4vh;
+  left: 61vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 5s;
+  animation-delay: 1s;
   animation-duration: 5s; }
 
 @keyframes particle1 {
@@ -1667,15 +1664,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.3;
+  opacity: 0.1;
   width: 3vw;
   height: 4vh;
-  left: 45vw;
+  left: 82vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 1s;
-  animation-duration: 4.25s; }
+  animation-delay: 0.125s;
+  animation-duration: 8s; }
 
 @keyframes particle1 {
   0% {
@@ -1689,15 +1686,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.2;
-  width: 5vw;
-  height: 4vh;
-  left: 74vw;
+  opacity: 0.6;
+  width: 3vw;
+  height: 5vh;
+  left: 7vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 3.5s;
-  animation-duration: 5s; }
+  animation-delay: 0.5s;
+  animation-duration: 3.5s; }
 
 @keyframes particle1 {
   0% {
@@ -1711,15 +1708,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.8;
-  width: 4vw;
-  height: 5vh;
-  left: 38vw;
+  opacity: 0.7;
+  width: 5vw;
+  height: 3vh;
+  left: 12vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 0.1666666667s;
-  animation-duration: 8s; }
+  animation-delay: 1.5s;
+  animation-duration: 9s; }
 
 @keyframes particle1 {
   0% {
@@ -1733,14 +1730,14 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.2;
-  width: 5vw;
+  opacity: 0.8;
+  width: 3vw;
   height: 3vh;
-  left: 17vw;
+  left: 75vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 1.1666666667s;
+  animation-delay: 0.25s;
   animation-duration: 3.3333333333s; }
 
 @keyframes particle1 {
@@ -1755,15 +1752,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.7;
-  width: 5vw;
-  height: 4vh;
-  left: 67vw;
+  opacity: 0.5;
+  width: 4vw;
+  height: 5vh;
+  left: 44vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 5s;
-  animation-duration: 5.5s; }
+  animation-delay: 0.4285714286s;
+  animation-duration: 3.75s; }
 
 @keyframes particle1 {
   0% {
@@ -1777,15 +1774,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.2;
-  width: 4vw;
-  height: 3vh;
-  left: 23vw;
+  opacity: 0.9;
+  width: 3vw;
+  height: 4vh;
+  left: 32vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 0.75s;
-  animation-duration: 3.5s; }
+  animation-delay: 7s;
+  animation-duration: 4.5s; }
 
 @keyframes particle1 {
   0% {
@@ -1799,15 +1796,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.6;
-  width: 3vw;
-  height: 3vh;
-  left: 10vw;
+  opacity: 0.7;
+  width: 5vw;
+  height: 5vh;
+  left: 51vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 0.3333333333s;
-  animation-duration: 6s; }
+  animation-delay: 1.5s;
+  animation-duration: 5s; }
 
 @keyframes particle1 {
   0% {
@@ -1821,15 +1818,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.5;
+  opacity: 0.2;
   width: 3vw;
   height: 5vh;
-  left: 48vw;
+  left: 89vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 0.4s;
-  animation-duration: 4.3333333333s; }
+  animation-delay: 0.2222222222s;
+  animation-duration: 3.6666666667s; }
 
 @keyframes particle1 {
   0% {
@@ -1844,14 +1841,14 @@ body {
   z-index: 2;
   top: 130vh;
   opacity: 0.5;
-  width: 5vw;
-  height: 5vh;
-  left: 20vw;
+  width: 3vw;
+  height: 3vh;
+  left: 33vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 1.6s;
-  animation-duration: 3.5s; }
+  animation-delay: 0.3333333333s;
+  animation-duration: 4s; }
 
 @keyframes particle1 {
   0% {
@@ -1865,15 +1862,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.2;
+  opacity: 0.6;
   width: 3vw;
-  height: 3vh;
-  left: 65vw;
+  height: 4vh;
+  left: 35vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 5s;
-  animation-duration: 3.6666666667s; }
+  animation-delay: 1s;
+  animation-duration: 6s; }
 
 @keyframes particle1 {
   0% {
@@ -1887,15 +1884,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.1;
+  opacity: 0.4;
   width: 5vw;
-  height: 4vh;
-  left: 8vw;
+  height: 3vh;
+  left: 70vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 0.5555555556s;
-  animation-duration: 4.25s; }
+  animation-delay: 0.7142857143s;
+  animation-duration: 4.5s; }
 
 @keyframes particle1 {
   0% {
@@ -1909,15 +1906,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.7;
-  width: 3vw;
+  opacity: 0.2;
+  width: 5vw;
   height: 4vh;
-  left: 90vw;
+  left: 65vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 0.2222222222s;
-  animation-duration: 4.3333333333s; }
+  animation-delay: 7s;
+  animation-duration: 3.25s; }
 
 @keyframes particle1 {
   0% {
@@ -1931,15 +1928,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.6;
-  width: 4vw;
-  height: 5vh;
-  left: 88vw;
+  opacity: 0.7;
+  width: 3vw;
+  height: 4vh;
+  left: 10vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 1.3333333333s;
-  animation-duration: 4s; }
+  animation-delay: 0.2857142857s;
+  animation-duration: 3.25s; }
 
 @keyframes particle1 {
   0% {
@@ -1953,15 +1950,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.2;
+  opacity: 0.5;
   width: 5vw;
-  height: 5vh;
-  left: 45vw;
+  height: 3vh;
+  left: 88vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 1s;
-  animation-duration: 4s; }
+  animation-delay: 2.5s;
+  animation-duration: 3.6666666667s; }
 
 @keyframes particle1 {
   0% {
@@ -1975,15 +1972,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.1;
-  width: 4vw;
+  opacity: 0.7;
+  width: 5vw;
   height: 4vh;
-  left: 5vw;
+  left: 60vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 0.375s;
-  animation-duration: 3.5s; }
+  animation-delay: 2.5s;
+  animation-duration: 9s; }
 
 @keyframes particle1 {
   0% {
@@ -1997,15 +1994,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.4;
-  width: 4vw;
-  height: 3vh;
-  left: 29vw;
+  opacity: 0.8;
+  width: 5vw;
+  height: 5vh;
+  left: 62vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 10s;
-  animation-duration: 6s; }
+  animation-delay: 2.6666666667s;
+  animation-duration: 4.5s; }
 
 @keyframes particle1 {
   0% {
@@ -2019,15 +2016,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.5;
+  opacity: 0.6;
   width: 4vw;
-  height: 3vh;
-  left: 75vw;
+  height: 4vh;
+  left: 70vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 1.5s;
-  animation-duration: 4.6666666667s; }
+  animation-delay: 7s;
+  animation-duration: 3.3333333333s; }
 
 @keyframes particle1 {
   0% {
@@ -2041,14 +2038,14 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.7;
-  width: 4vw;
+  opacity: 0.2;
+  width: 5vw;
   height: 5vh;
-  left: 81vw;
+  left: 46vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 3s;
+  animation-delay: 0.75s;
   animation-duration: 4.5s; }
 
 @keyframes particle1 {
@@ -2063,15 +2060,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.1;
+  opacity: 0.2;
   width: 4vw;
-  height: 4vh;
-  left: 81vw;
+  height: 3vh;
+  left: 62vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 1.6666666667s;
-  animation-duration: 6s; }
+  animation-delay: 1.25s;
+  animation-duration: 4s; }
 
 @keyframes particle1 {
   0% {
@@ -2085,15 +2082,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.1;
-  width: 5vw;
-  height: 3vh;
-  left: 18vw;
+  opacity: 0.7;
+  width: 4vw;
+  height: 4vh;
+  left: 46vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 0.2857142857s;
-  animation-duration: 5s; }
+  animation-delay: 0.8571428571s;
+  animation-duration: 4.5s; }
 
 @keyframes particle1 {
   0% {
@@ -2107,15 +2104,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.8;
-  width: 4vw;
+  opacity: 0.3;
+  width: 5vw;
   height: 4vh;
-  left: 86vw;
+  left: 50vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 2s;
-  animation-duration: 4s; }
+  animation-delay: 2.25s;
+  animation-duration: 3.5s; }
 
 @keyframes particle1 {
   0% {
@@ -2129,15 +2126,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.9;
-  width: 4vw;
+  opacity: 0.8;
+  width: 5vw;
   height: 4vh;
-  left: 66vw;
+  left: 34vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 1.6s;
-  animation-duration: 5s; }
+  animation-delay: 1.8s;
+  animation-duration: 3.3333333333s; }
 
 @keyframes particle1 {
   0% {
@@ -2151,15 +2148,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.7;
-  width: 3vw;
+  opacity: 0.5;
+  width: 5vw;
   height: 3vh;
-  left: 73vw;
+  left: 45vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 9s;
-  animation-duration: 4.25s; }
+  animation-delay: 6s;
+  animation-duration: 5s; }
 
 @keyframes particle1 {
   0% {
@@ -2173,15 +2170,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.6;
-  width: 5vw;
+  opacity: 0.5;
+  width: 4vw;
   height: 5vh;
-  left: 68vw;
+  left: 22vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 6s;
-  animation-duration: 3.5s; }
+  animation-delay: 0.25s;
+  animation-duration: 5s; }
 
 @keyframes particle1 {
   0% {
@@ -2195,15 +2192,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.3;
+  opacity: 0.5;
   width: 4vw;
-  height: 4vh;
-  left: 84vw;
+  height: 3vh;
+  left: 61vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 1s;
-  animation-duration: 3.3333333333s; }
+  animation-delay: 1.5s;
+  animation-duration: 5s; }
 
 @keyframes particle1 {
   0% {
@@ -2217,15 +2214,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.6;
-  width: 3vw;
-  height: 4vh;
-  left: 40vw;
+  opacity: 0.9;
+  width: 5vw;
+  height: 3vh;
+  left: 82vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 1.4s;
-  animation-duration: 3.6666666667s; }
+  animation-delay: 4s;
+  animation-duration: 4s; }
 
 @keyframes particle1 {
   0% {
@@ -2239,15 +2236,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.1;
-  width: 4vw;
-  height: 5vh;
-  left: 14vw;
+  opacity: 0.8;
+  width: 5vw;
+  height: 4vh;
+  left: 42vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 4.5s;
-  animation-duration: 6s; }
+  animation-delay: 2.5s;
+  animation-duration: 4s; }
 
 @keyframes particle1 {
   0% {
@@ -2261,15 +2258,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.1;
-  width: 4vw;
-  height: 4vh;
-  left: 60vw;
+  opacity: 0.7;
+  width: 5vw;
+  height: 5vh;
+  left: 18vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 2.5s;
-  animation-duration: 3.3333333333s; }
+  animation-delay: 2.25s;
+  animation-duration: 9s; }
 
 @keyframes particle1 {
   0% {
@@ -2283,15 +2280,15 @@ body {
   position: absolute;
   z-index: 2;
   top: 130vh;
-  opacity: 0.3;
+  opacity: 0.9;
   width: 4vw;
-  height: 4vh;
+  height: 5vh;
   left: 13vw;
   animation-name: particle1;
   animation-timing-function: ease(in-out-circ);
   animation-iteration-count: infinite;
-  animation-delay: 0.7142857143s;
-  animation-duration: 3.3333333333s; }
+  animation-delay: 1.3333333333s;
+  animation-duration: 4.6666666667s; }
 
 @keyframes particle1 {
   0% {
@@ -2361,7 +2358,7 @@ body {
   position: absolute;
   z-index: 7;
   width: 50%;
-  height: 70%;
+  height: 75%;
   margin: 0 auto;
   background-color: #0E1212;
   color: #D7D6D8;
@@ -2412,6 +2409,31 @@ body {
   #aboutMe div a {
     text-decoration: none; }
 
+@media only screen and (max-width: 1030px) {
+  #firstMain {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; }
+
+  .firstMainDivs {
+    width: 90%; }
+
+  #aboutMe {
+    width: 90%; }
+    #aboutMe h1 {
+      font-size: 50px; }
+    #aboutMe span {
+      font-size: 20px; }
+
+  .mainButtonStyle {
+    font-size: 40px; }
+
+  .linkButtonStyle {
+    font-size: 30px; }
+
+  #skillsWindow {
+    width: 100%;
+    height: 100%; } }
 @media only screen and (max-width: 600px) {
   #firstMain {
     flex-direction: column;
@@ -2436,7 +2458,8 @@ body {
 
   #skillsWindow {
     width: 100%;
-    height: 110%; } }
+    height: 110%;
+    margin-bottom: 20px; } }
 footer {
   background-color: #0E1212;
   text-align: center;
@@ -2457,6 +2480,9 @@ footer {
   top: 2vh;
   left: 2vw; }
 
+@media only screen and (max-width: 1030px) {
+  #backBtn {
+    margin-bottom: 20px; } }
 @media only screen and (max-width: 600px) {
   #backBtn {
     margin-bottom: 30px; } }

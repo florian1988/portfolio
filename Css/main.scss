@@ -52,8 +52,6 @@ body {
 #hText2{
     position: absolute;
     left: 20vw;
-    top: 40vh;
-    font-size: 3vw;
 }
 
 #hText3{
@@ -73,7 +71,6 @@ body {
     align-items: center;
     margin-top: 4vh;
     height: 7vh;
-    width: 12vw;
     font-size: 20px;
     border: 4px solid white;
     background-color: $primaryBackground;
@@ -123,9 +120,9 @@ body {
         top: 30vh;
         font-size: 6vw;
     }
-}@media only screen and (min-width: 1000px){
+}@media only screen and (min-width: 1030px){
     #headerButton{
-        width: 17vw;
+        width: 18vw;
     }
 
     #hText2{
@@ -164,6 +161,8 @@ body {
 
 
 //**********************************************************************   Main area ************************************************************************
+
+
 #indexMain{
     height:100vh;
     position: relative;
@@ -236,7 +235,7 @@ body {
     position: absolute;
     z-index: 7;
     width: 50%;
-    height: 70%;
+    height: 75%;
     margin: 0 auto;   
     background-color: $primaryBackground;
     color: $primaryFontColor;
@@ -304,7 +303,43 @@ body {
     }
     
 }
+@media only screen and (max-width: 1030px){
 
+    #firstMain{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .firstMainDivs{
+    width: 90%;
+    }
+
+    #aboutMe{
+        width: 90%;
+        h1{
+            font-size: 50px;
+        }
+        span{
+            font-size: 20px;
+        }
+    }
+
+    .mainButtonStyle{
+        font-size: 40px;
+    }
+
+    .linkButtonStyle{
+        font-size: 30px;
+    }
+
+    #skillsWindow{
+        width: 100%;
+        height: 100%;
+    
+    }
+
+}
 @media only screen and (max-width: 600px){
     #firstMain{
         flex-direction: column;
@@ -337,12 +372,9 @@ body {
     #skillsWindow{
         width: 100%;
         height: 110%;
+        margin-bottom: 20px;
     }
 
-
-}@media only screen and (min-width: 601px){
-
-}@media only screen and (min-width: 1000px){
 
 }
 
@@ -381,15 +413,15 @@ footer{
     top: 2vh;
     left: 2vw;
 }
+@media only screen and (max-width: 1030px){
+        #backBtn{
+        margin-bottom: 20px;
+    }
+}
 
 @media only screen and (max-width: 600px){
     #backBtn{
         margin-bottom: 30px;
     }
-
-
-}@media only screen and (min-width: 601px){
-
-}@media only screen and (min-width: 1000px){
 
 }
